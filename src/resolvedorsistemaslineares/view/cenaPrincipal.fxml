@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="750.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.66" fx:controller="resolvedorsistemaslineares.view.cenaPrincipalController">
+   <children>
+      <SplitPane dividerPositions="0.4431438127090301" layoutX="-209.0" layoutY="-164.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TextField fx:id="novaEquacao" layoutX="27.0" layoutY="59.0" prefHeight="26.0" prefWidth="270.0" promptText="Ex: 1x+2y+0z=4" AnchorPane.bottomAnchor="310.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="60.0" />
+                  <Button fx:id="adicionarEq" layoutX="202.0" layoutY="95.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="140.0" text="Adicionar Equação" AnchorPane.bottomAnchor="275.0" AnchorPane.leftAnchor="157.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="95.0" />
+                  <ListView fx:id="listaSistema" layoutX="30.0" layoutY="136.0" prefHeight="230.0" prefWidth="267.0" />
+                  <TextField fx:id="quantVariaveis" layoutX="30.0" layoutY="26.0" prefHeight="26.0" prefWidth="158.0" promptText="Quant. variaveis" />
+                  <Button fx:id="confirmaQV" layoutX="209.0" layoutY="26.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="88.0" text="Confirma" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
